@@ -436,3 +436,10 @@ h2 {
     }
 }
 
+
+@media (min-width: 1024px) {
+    .hero-content h1 {
+        font-size: 64px;
+    }
+}
+
