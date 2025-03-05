@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Restaurant UI</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Pizza Restaurant</h1>
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="menu">MENU</a></li>
+                <li><a href="blog">BLOGS</a></li>
+                <li><a href="testimony">TESTIMONY</a></li>
+                <li><a href="findus">FIND US</a></li>
+                <li><a href="our team">OUR TEAM</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Craving for a <br> <span class="highlight">cheesy pizza?</span></h1>
+            <div class="underline"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui. Vestibulum ut felis et lorem porta congue vitae nec turpis. Aliquam quis leo at nunc tempor faucibus et ac massa.</p>
+        </div>
+    </section>
+    
+    <section id="about" class="about-us">
+        <h2>ABOUT US</h2>
+        <div class="underline"></div>
+        <div class="about-content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis reiciendis facere cum sunt est laudantium ratione fuga animi laboriosam accusantium provident, dignissimos voluptatibus, ex eligendi sequi magnam culpa deleniti nulla.</p>
+            <img src="./dough-3082589_1920 1.png" alt="dough-making">
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>MENU</h2>
+        <div class="underline"></div>
+        <p class="menu-desc">Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you will get to savour the best pizza in town.</p>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="./pizza2.png" alt="Pizza">
+                <div class="menu-text">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eveniet fugiat iusto, molestiae explicabo quis culpa eligendi veritatis rem magnam minus consequuntur. Suscipit et at repellat minima, laudantium obcaecati quisquam.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./pizza5.png" alt="Pizza">
+                <div class="menu-text">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iusto, voluptas provident debitis quo distinctio ducimus rem non architecto magnam, blanditiis ad autem odit. Quas beatae nostrum quo asperiores autem.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./bread2.png" alt="Pizza">
+                <div class="menu-text">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ducimus qui, incidunt esse quisquam recusandae voluptates veniam iusto commodi nostrum, reiciendis sapiente repudiandae magni omnis architecto laborum adipisci iure optio.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./bread.png" alt="Drinks">
+                <div class="menu-text">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis ducimus libero hic aut neque est accusantium! Consequatur assumenda nihil, porro nesciunt, provident numquam neque ut asperiores perferendis, illum illo.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./shake1.png" alt="Drinks">
+                <div class="menu-text">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque facilis eligendi repellendus atque! Impedit eum quibusdam, minima rem facere officia. Harum eligendi exercitationem fugiat dolorem sed earum dolores, voluptas optio.</p>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./Untitled.png" alt="Drinks">
+                <div class="menu-text">
+                    <h3>LOREM IPSUM</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quia inventore, impedit totam sit voluptate aliquam eveniet blanditiis placeat cupiditate, beatae molestiae non nesciunt expedita aut exercitationem excepturi, maiores id!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="carousel" class="carousel-section">
+        <h2>Carousel</h2>
+        <div class="underline"></div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./bread.png" alt="Pizza 1"></div>
+                <div class="swiper-slide"><img src="./bread2.png" alt="Pizza 2"></div>
+                <div class="swiper-slide"><img src="./dough-3082589_1920 1.png" alt="Pizza 3"></div>
+                <div class="swiper-slide"><img src="./pizza5.png" alt="Pizza 4"></div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="underline"></div>
+        <div class="gallery-container">
+            <img src="./pizza2.png" alt="Large Image">  <!-- Large Image (Left) -->
+            
+            <!-- First Column (Right) -->
+            <img src="./bread.png" alt="Food 1">  <!-- Top Image (Right, First Column) -->
+            <img src="./bread2.png" alt="Food 2">  <!-- Middle Image (Right, First Column) -->
+            <img src="./dough-3082589_1920 1.png" alt="Pizza">   <!-- Bottom Image (Right, First Column) -->
+    
+            <!-- Second Column (Right) -->
+            <img src="./shake1.png" alt="Drink">   <!-- Top Image (Right, Second Column, Spanning Two Rows) -->
+            <img src="./pizza5.png" alt="Dessert"> <!-- Bottom Image (Right, Second Column) -->
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <h2>Find Us</h2>
+        <div class="underline"></div>
+        <div class="footer-container">
+            <div class="footer-info">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                   Lorem Ipsum has been the industry's standard dummy text.</p>
+                <div class="contact-details">
+                    <p><i class="fas fa-map-marker-alt"></i> Location XYZ, XYZ Colony, Delhi</p>
+                    <p><i class="fas fa-phone"></i> 123-456-789</p>
+                    <p><i class="fas fa-phone"></i> 987-654-321</p>
+                </div>
+            </div>
+            <div class="footer-map">
+                <img src="./image 4.png" alt="Map Location">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <img src="./round-icons-b8O6utvK7gY-unsplash.png" alt="Logo">
+            </div>
+            <div class="footer-contact">
+                <p><i class="fas fa-envelope"></i> mailid@gmail.com</p>
+                <p><i class="fas fa-phone"></i> 123-456-789</p>
+                <p><i class="fas fa-phone"></i> 987-654-321</p>
+            </div>
+        </div>        
+    </section>
+    
+    
+    
+    <script src="./index.js"></script>
+    
+</body>
+</html>
